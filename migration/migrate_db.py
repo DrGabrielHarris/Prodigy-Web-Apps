@@ -18,6 +18,7 @@ mysql_db = MySQLDatabase(
     host="host name",
     port=3306,
     database="database name",
+    ssl={"ssl": {"ssl_ca": "certificate.crt.pem"}},
 )
 
 mysql_db.create_tables(list(models.values()))
