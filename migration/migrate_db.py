@@ -21,6 +21,7 @@ mysql_db = MySQLDatabase(
     ssl={"ssl": {"ssl_ca": "certificate.crt.pem"}},
 )
 
+mysql_db.connect()
 mysql_db.create_tables(list(models.values()))
 mysql_db.get_tables()
 mysql_db.close()
