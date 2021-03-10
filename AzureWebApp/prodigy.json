@@ -1,0 +1,21 @@
+{
+    "port": 80,
+    "host": "0.0.0.0",
+    "db": "mysql",
+    "db_settings": {
+        "mysql": {
+            "user": "prodigy@prodigy-dev-eun-mysql",
+            "password": "user password",
+            "host": "prodigy-dev-eun-mysql.mysql.database.azure.com",
+            "port": 3306,
+            "database": "prodigydb",
+            "ssl": {
+                "ssl": {
+                    "ssl-ca": "/var/www/html/BaltimoreCyberTrustRoot.crt.pem"
+                }
+            }
+        }
+    },
+    "feed_overlap": false,
+    "show_stats": true
+}
