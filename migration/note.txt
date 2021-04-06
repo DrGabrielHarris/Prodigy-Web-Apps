@@ -1,0 +1,2 @@
+- You can download a certificate from  https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt.pem
+- For more information visit https://docs.microsoft.com/en-us/azure/mysql/concepts-ssl-connection-security#ssl-default-settings
