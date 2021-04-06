@@ -24,4 +24,4 @@ ENV PRODIGY_BASIC_AUTH_PASS "password"
 
 EXPOSE 80
 
-CMD python -m prodigy component repo-name en_core_web_md ./data/dataset.jsonl --label LABEL1,LABEL2,LABEL3
+CMD python -m prodigy ner.manual ner_news en_core_web_sm ./data/dataset.jsonl --label PERSON,ORG,PRODUCT
